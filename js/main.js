@@ -145,7 +145,7 @@ function renderHomeServicesPreview(){
     return `<a class="service-card" href="services.html?cat=${cat.slug}">
       <span class="tag">${cat.title[currentLang]}</span>
       <h3>${item.name[currentLang]}</h3>
-      <p class="price">${fmtPrice(item.price)}<span>${t('services.currency')}</span></p>
+     
     </a>`;
   }).join('');
 }
